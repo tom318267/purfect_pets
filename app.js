@@ -34,8 +34,10 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 
-var url = process.env.DATABASEURL || "mongodb://localhost/purfect_pets";
-mongoose.connect(url, {useNewUrlParser: true});
+// var url = process.env.DATABASEURL || "mongodb://localhost/purfect_pets";
+// mongoose.connect(url, {useNewUrlParser: true});
+mongoose.connect("mongodb://purfect_pets:2Ommy1986@ds011785.mlab.com:11785/purfect_pets", {useNewUrlParser: true});
+
 
 app.use(function(req, res, next){
    res.locals.currentUser = req.user;

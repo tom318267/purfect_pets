@@ -48,7 +48,7 @@ router.post("/", isLoggedIn, function(req, res){
       console.log(err);
     } else {
       // redirect back to pets index page
-      res.redirect("/");
+      res.redirect("/pets");
     }
   });
 });
