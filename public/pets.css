@@ -275,7 +275,7 @@ footer {
 @media only screen and (max-width: 763px) {
 
   header {
-    min-height: 550px;
+    min-height: 450px;
   }
 
   header .display-1 {
@@ -283,7 +283,7 @@ footer {
   }
 
   .display-1 {
-    padding-top: 108px;
+    padding-top: 80px;
   }
 
   button#get-started {
