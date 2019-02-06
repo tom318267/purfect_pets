@@ -274,8 +274,13 @@ footer {
 
 @media only screen and (max-width: 763px) {
 
+
   header .display-1 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
+  }
+
+  button#get-started {
+    font-size: 1rem;
   }
   #comment-cloud {
     width: 35%;
