@@ -1,0 +1,82 @@
+<% include ../partials/header %>
+
+  <header class="text-center py-5">
+    <h1 class="display-1"><i class="fas fa-dog"></i> Purfect Pets</h1>
+    <p class="lead">Share photos of your furry friends!</p>
+    <a href="/register"><button id="get-started" class="btn btn-lg btn-primary">Sign Up</button></a>
+    <a href="/login"><button id="get-started" class="btn btn-lg btn-primary">Login</button></a>
+    <a href="/logout"><button id="get-started" class="btn btn-lg btn-primary">Logout</button></a>
+
+  </header>
+
+  <section id="about" class="mt-5">
+    <div class="container text-center">
+      <h1 id="about-us" class="display-4">About Us!</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+              <img id="profile" class="card-img-top" src="http://www.skmedicalcollege.org/upload_emp_images/female.png" alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Create a profile!</h2>
+                <p class="card-text">Create a username and password, so you can start posting your images!</p>
+                <a href="#" class="btn btn-lg btn-primary">Sign Up</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+              <img id="cat" class="card-img-top" src="https://openclipart.org/image/2400px/svg_to_png/23817/pitr-Kitty-icon.png" alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Post your pet!</h2>
+                <p class="card-text">Add a name for your image and upload your photo! Post as many photos as you like!</p>
+                <a href="#" class="btn btn-lg btn-primary">Post</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card align-items-center">
+              <img id="comment-cloud" class="card-img-top" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Comment-icon.png" alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Comment!</h2>
+                <p class="card-text">Post your comments on user's images and show others what you think of their furry friend!</p>
+                <a href="#" class="btn btn-lg btn-primary">Comment</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connect" class="text-center mt-5 pb-5">
+    <div class="container">
+      <h2 id="connect-text" class="text-white display-3 pt-5">Stay Connected!</h2>
+      <p id="follow" class="lead">Follow us on social media!</p>
+      <div class="row no-gutters">
+        <div id="social-col" class="col-4 col-md-4">
+          <img id="facebook" src="https://cdn3.iconfinder.com/data/icons/social-icons-5/606/Facebook.png" alt="">
+        </div>
+
+        <div class="col-4 col-md-4">
+          <img id="twitter" src="https://cdn3.iconfinder.com/data/icons/social-media-circle/512/circle-twitter-512.png" alt="">
+        </div>
+
+        <div class="col-4 col-md-4">
+          <img id="instagram" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c521.png" alt="">
+        </div>
+      </div>
+      <p class="lead pt-5">For newsletters, and special promotions enter your email address!</p>
+      <div id="form-email" class="form-group">
+        <div class="input-group">
+          <input id="email-input" class="form-control" type="text" placeholder="Email Address" required>
+          <button id="special-promotions" class="btn btn-info">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <% include ../partials/footer %>

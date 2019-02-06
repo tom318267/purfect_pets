@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+<div id="index">
+  <h1 class="display-3 text-center py-5">Posted Photos!</h1>
+  <div class="container text-center contain-index">
+    <div class="row">
+      <% findPic.forEach(function(pic){ %>
+          <div class="col-6 col-md-4">
+            <a href="/pets/<%= pic._id %>"><img src="<%= pic.image %>" alt=""></a>
+            <h4><%= pic.name %></h4>
+          </div>
+      <% }); %>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<% include ../partials/footer %>
