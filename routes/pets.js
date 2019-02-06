@@ -70,7 +70,7 @@ router.get("/:id", function(req, res){
 
 
 // Edit route
-router.get("/:id/edit", function(req, res){
+router.get("/:id/edit", isLoggedIn, function(req, res){
   Pets.findById(req.params.id, function(err, foundPic){
     if(!foundPic){
       return res.status(400).send("Item not found.")
