@@ -274,9 +274,16 @@ footer {
 
 @media only screen and (max-width: 763px) {
 
+  header {
+    min-height: 550px;
+  }
 
   header .display-1 {
     font-size: 4.2rem;
+  }
+
+  .display-1 {
+    padding-top: 80px;
   }
 
   button#get-started {
