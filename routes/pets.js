@@ -80,7 +80,7 @@ router.get("/:id/edit", isLoggedIn, function(req, res){
 });
 
 // Update route
-router.put("/:id", function(req, res){
+router.put("/:id", isLoggedIn, function(req, res){
   Pets.findByIdAndUpdate(req.params.id, req.body.pets, function(err, updatedPic){
     if(err){
       res.redirect("/pets");
@@ -92,7 +92,7 @@ router.put("/:id", function(req, res){
 
 
 // Delete route
-router.delete("/:id", function(req, res){
+router.delete("/:id", isLoggedIn, function(req, res){
   // destroy pic
   Pets.findByIdAndRemove(req.params.id, function(err){
     if(err){
