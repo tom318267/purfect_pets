@@ -32,7 +32,7 @@ header {
 
 .display-1 {
   font-size: 8rem;
-  padding-top: 250px;
+  padding-top: 150px;
   text-shadow: 1px 2px 2px black;
 }
 
@@ -299,7 +299,7 @@ footer {
   }
 
   footer {
-    padding: 0 0;
+    padding: 0 0 5px 0;
   }
 
 }
@@ -402,13 +402,11 @@ footer {
     width: 70%;
   }
 
+
+
+
 }
 
-@media only screen and (max-width: 872px) {
-  h1.display-1 {
-    padding: 100px 0;
-  }
-}
 
 
 @media only screen and (min-width: 592px) {
@@ -430,7 +428,12 @@ footer {
   #comment-cloud {
     width: 35%;
   }
+
+  h1.display-1 {
+    padding-top: 200px;
+  }
 }
+
 
 
 @media only screen and (min-width: 763px){
