@@ -38,7 +38,7 @@ header {
 
 header p.lead {
   font-size: 1.8rem;
-  text-shadow: 1px 2px 2px black;
+  text-shadow: 2px 1px 1px black;
 }
 
 #get-started {
@@ -404,6 +404,12 @@ footer {
 
 }
 
+@media only screen and (max-width: 872px) {
+  h1.display-1 {
+    padding: 100px 0;
+  }
+}
+
 
 @media only screen and (min-width: 592px) {
 
@@ -441,6 +447,8 @@ footer {
   }
 
 }
+
+
 
 @media only screen and (min-width: 992px) {
   a.navbar-brand {
