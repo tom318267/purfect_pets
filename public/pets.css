@@ -18,10 +18,10 @@ header {
                        background-size: cover;
                       min-height: 750px;
   color: white;
-  position: relative;
+  /* position: relative;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
 
 }
 
