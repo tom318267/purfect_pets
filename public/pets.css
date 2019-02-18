@@ -310,7 +310,7 @@ footer {
 @media only screen and (max-width: 591px) {
 
   header {
-    min-height: 500px;
+    min-height: 550px;
   }
 
   header .display-1 {
@@ -318,7 +318,7 @@ footer {
   }
 
   .display-1 {
-    padding: 170px 15px 0 15px;
+    padding: 200px 15px 0 15px;
 
   }
 
