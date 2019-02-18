@@ -299,10 +299,15 @@ footer {
     top: 2px;
   }
 
-  footer {
-    padding: 0 0 5px 0;
-  }
 
+}
+
+@media only screen and (max-width: 363px) {
+  .d-inline-block li {
+    float: left!important;
+    margin-right: 15px;
+    list-style: none;
+  }
 }
 
 
