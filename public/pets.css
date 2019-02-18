@@ -13,7 +13,7 @@ body {
 header {
   background: linear-gradient(
                        rgba(0,0,0, .4),
-                       rgba(0,0,0, .2)),
+                       rgba(0,0,0, .3)),
                        url("https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=639&q=80")center center no-repeat fixed;
                        background-size: cover;
                       min-height: 750px;
@@ -147,7 +147,7 @@ background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, F
 background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
-  padding: 215px 0;
+  padding: 180px 0 300px 0;
 }
 
 .post-contain {
@@ -392,7 +392,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 592px) {
+/* @media only screen and (max-width: 592px) {
   #comment-container {
     width: 400px;
 
@@ -405,14 +405,14 @@ footer {
 
 
 
-}
+} */
 
 
 
 @media only screen and (min-width: 592px) {
 
   #cat {
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -421,17 +421,28 @@ footer {
   }
 
   #profile {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
   }
 
   #comment-cloud {
-    width: 35%;
+    width: 50%;
   }
 
   h1.display-1 {
     padding-top: 200px;
   }
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #login-form {
+    width: 50%;
+    margin: 0 auto;
+  }
+
 }
 
 

@@ -3,9 +3,12 @@
   <header class="text-center">
     <h1 class="display-1"><i class="fas fa-dog"></i> Purfect Pets</h1>
     <p class="lead">Share photos of your furry friends!</p>
+  <% if(!currentUser){ %>
     <a href="/register"><button id="get-started" class="btn btn-lg btn-primary">Sign Up</button></a>
     <a href="/login"><button id="get-started" class="btn btn-lg btn-primary">Login</button></a>
+  <% } else { %>
     <a href="/logout"><button id="get-started" class="btn btn-lg btn-primary">Logout</button></a>
+  <% } %>
   </header>
 
   <section id="about" class="mt-5">
