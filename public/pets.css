@@ -280,6 +280,7 @@ footer {
 }
 
 @media only screen and (max-width: 363px) {
+
   #post-section {
     padding: 90px 0 200px 0;
   }
@@ -313,7 +314,7 @@ footer {
   }
 
   header .display-1 {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
   }
 
   .display-1 {
