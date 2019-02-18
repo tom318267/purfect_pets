@@ -314,11 +314,12 @@ footer {
   }
 
   header .display-1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
 
   .display-1 {
-    padding-top: 150px;
+    padding: 150px 15px 0 15px;
+
   }
 
   button#get-started {
