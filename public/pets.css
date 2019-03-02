@@ -246,7 +246,6 @@ ul.d-inline-block {
 }
 
 .d-inline-block li {
-  float: left;
   margin-right: 15px;
   list-style: none;
 }
@@ -419,6 +418,14 @@ footer {
 
 
 } */
+
+@media only screen and (min-width: 509px) {
+  .d-inline-block li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+  }
+}
 
 
 
