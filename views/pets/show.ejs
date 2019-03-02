@@ -6,15 +6,15 @@
     <img id="show-image" src="<%= foundPic.image %>" alt="">
     <h4><%= foundPic.created.toDateString() %></h4>
     <div class="edit-delete">
-      <a class="btn btn-lg btn-primary" href="/pets/<%= foundPic._id %>/edit">Edit</a>
+      <a class="btn btn-primary" href="/pets/<%= foundPic._id %>/edit">Edit</a>
       <form id="delete" action="/pets/<%= foundPic._id %>?_method=DELETE" method="POST">
-          <button id="dialog-confirm" class="btn btn-lg btn-primary" onclick="if (!confirm('Are you sure you want to delete <%= foundPic.name %>')) { return false }">Delete</button>
+          <button id="dialog-confirm" class="btn btn-primary" onclick="if (!confirm('Are you sure you want to delete <%= foundPic.name %>')) { return false }">Delete</button>
        </form>
     </div>
   <div id="card-comment" class="card">
     <div class="card-body">
       <div class="text-right">
-          <a id="comment-button" class="btn btn-primary" href="/pets/<%= foundPic._id %>/comments/new"><i class="fas fa-comment-dots"></i> Add Comment</a>
+          <a id="comment-button" class="btn btn-primary" href="/pets/<%= foundPic._id %>/comments/new"><i class="fas fa-comment-dots"></i></a>
       </div>
     <% foundPic.comments.forEach(function(comment){ %>
         <div class="row">

@@ -278,7 +278,7 @@ footer {
   bottom: 0;
 }
 
-@media only screen and (max-width: 363px) {
+@media only screen and (max-width: 320px) {
 
   #post-section {
     padding: 90px 0 200px 0;
@@ -292,6 +292,20 @@ footer {
     font-size: 2.3rem;
     padding-top: 70px;
   }
+
+  h2.display-3 {
+    font-size: 2.8rem;
+  }
+
+  #show {
+    background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 130px;
+  }
+
 
   #sign-up-login {
     font-size: 2.8rem;
