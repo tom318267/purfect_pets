@@ -319,6 +319,10 @@ footer {
   height: 100%;
   padding: 150px 0 300px 0;
   }
+
+  .contain-index {
+    padding-bottom: 200px;
+  }
 }
 
 
