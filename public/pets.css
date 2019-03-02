@@ -303,11 +303,13 @@ footer {
 }
 
 @media only screen and (max-width: 363px) {
+
   .d-inline-block li {
     float: left!important;
     margin-right: 15px;
     list-style: none;
   }
+
 }
 
 
@@ -391,6 +393,10 @@ footer {
 
   #edit-section {
     padding-bottom: 300px;
+  }
+
+  footer.container-fluid {
+    padding: 0 15px;
   }
 
   footer li {
