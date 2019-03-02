@@ -302,16 +302,23 @@ footer {
     top: 2px;
   }
 
+  .d-inline-block li {
+      margin-right: 15px;
+      list-style: none;
+  }
+
+
 
 }
 
-@media only screen and (max-width: 363px) {
-
-  .d-inline-block li {
-    margin-right: 15px;
-    list-style: none;
+@media only screen and (max-width: 425px) {
+  #register-section {
+    background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  padding: 150px 0 300px 0;
   }
-
 }
 
 
