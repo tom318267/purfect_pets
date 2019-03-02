@@ -81,6 +81,11 @@ transition: 0.1s linear;
   border: none;
 }
 
+.btn-primary:active {
+  background-color: #C45D11;
+  border: none;
+}
+
 .btn-primary:hover {
   background-color: #964E12;
 }
