@@ -278,7 +278,8 @@ footer {
   bottom: 0;
 }
 
-@media only screen and (max-width: 320px) {
+
+@media only screen and (max-width: 425px) {
 
   #post-section {
     padding: 90px 0 200px 0;
@@ -320,12 +321,6 @@ footer {
       margin-right: 15px;
       list-style: none;
   }
-
-
-
-}
-
-@media only screen and (max-width: 425px) {
   #register-section {
     background: #eacda3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
