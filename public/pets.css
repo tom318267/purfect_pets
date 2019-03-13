@@ -1,5 +1,5 @@
 html {
-  min-height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   position: relative;
 }
@@ -148,6 +148,7 @@ background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-2
 background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
   padding-top: 180px;
+  padding-bottom: 400px;
 }
 
 .post-contain {
@@ -281,7 +282,7 @@ footer {
 @media only screen and (max-width: 425px) {
 
   #post-section {
-    padding: 90px 0 200px 0;
+    padding: 90px 0 400px 0;
   }
 
   #post-image-text {
@@ -329,7 +330,7 @@ footer {
   }
 
   .contain-index {
-    padding-bottom: 200px;
+    padding-bottom: 500px;
   }
 }
 
